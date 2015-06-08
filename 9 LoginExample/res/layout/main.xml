@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/logging_hedding"
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/logging_user_name_txt"
+            android:id="@+id/textView2" android:layout_below="@+id/textView" android:layout_alignParentLeft="true"
+            android:layout_marginTop="42dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_user_name" android:layout_alignTop="@+id/textView2" android:layout_toRightOf="@+id/textView"
+            android:layout_marginLeft="38dp" android:layout_alignParentRight="true" android:hint="User Name"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/logging_password_txt"
+            android:id="@+id/textView3" android:layout_below="@+id/editText_user_name" android:layout_alignParentLeft="true"
+            android:layout_marginTop="40dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText_password"
+            android:layout_alignBottom="@+id/textView3" android:layout_alignLeft="@+id/editText_user_name"
+            android:layout_alignRight="@+id/editText_user_name" android:hint="Password"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/logging_attemps_txt"
+            android:id="@+id/textView4" android:layout_below="@+id/textView3" android:layout_alignParentLeft="true"
+            android:layout_marginTop="36dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logging_btn"
+            android:id="@+id/button"
+            android:layout_marginTop="38dp"
+            android:layout_alignRight="@+id/textView3" android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/textView4"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView_attemps" android:layout_alignBottom="@+id/textView4"
+                android:layout_alignLeft="@+id/editText_password" android:layout_alignRight="@+id/editText_password"/>
+</RelativeLayout>
+

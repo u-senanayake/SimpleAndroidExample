@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginExample</string>
+    <string name="logging_hedding">Log In Page</string>
+    <string name="logging_user_name_txt">Medium Text</string>
+    <string name="logging_password_txt">Medium Text</string>
+    <string name="logging_attemps_txt">Attemps</string>
+    <string name="logging_btn">LogIn</string>
+    <string name="second_txt">Welcome to second page</string>
+</resources>
